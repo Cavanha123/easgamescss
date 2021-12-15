@@ -1,0 +1,294 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+body{
+background-color: rgb(250, 253, 253);
+
+}
+
+#navbar{
+    position: fixed;
+    z-index: 999;
+    background-color: rgb(29, 27, 27);
+    width: 100%;
+    }
+    
+    
+    #navbar a{
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    float: right;
+    display: inline;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #navbar ul li{
+
+        display: inline;
+    }
+
+    .acesso a{
+        font-size: 20px;
+        color: rgb(19, 16, 184);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        list-style-type: none;
+        text-decoration: none;
+    }
+    
+    .acesso ul li{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        padding-left: 10%;
+        margin-left: 4%;
+        position: relative;
+        transform: translateY(-150%);
+    }
+
+    .arodape{
+
+        padding-bottom: 30px;
+    }
+
+    .info img{
+
+        display: flex;
+        float:
+        right;
+        width: 60px;
+        
+    }
+
+    .info a{
+
+        display:flex;   
+        list-style-type: none;
+        text-decoration: none;
+        padding: 20px;
+        color:
+        whitesmoke;
+       
+    }
+
+    .info{
+        background-color: rgb(29, 27, 27);
+    }
+
+    .redessociais{
+
+       display:
+       flex;
+       justify-content: end;
+
+    }
+
+    .destaques img{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 17%;
+    margin-top: 5%;
+    width: 400px;
+    height: 400px;
+    padding-bottom: 50px;   
+
+
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        font-family: 'Courier New', Courier, monospace;
+        padding-top: 50px;
+
+    }
+
+    .acesso{
+        padding-top: 20px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+       
+
+    }
+
+    .acesso button {
+        border:1px solid #090a09;
+        border-radius:4px;
+        cursor:pointer;
+        font-family:Verdana;
+        font-size:13px;
+        padding:6px 10px;
+        background-color: bisque;
+        color: black;
+        box-shadow: 0px 7px 7px;
+        
+        }
+
+    /*PAGINA DE JOGOS*/
+
+ .jogos img {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+    padding-bottom: 50px; 
+
+    }
+
+    .jogos{
+
+        width: 100%;
+        padding-top: 5%;
+        display: flexbox;
+        padding-bottom: 10%;
+    }
+    
+    .jogos span{
+        display: block;
+        font-size: 22px;
+        margin-left: 1%;
+    }
+    
+    .jogos img{
+        margin-left: 1%;
+        margin-bottom: 30%;
+        padding-top: 10%;
+    }
+    
+    
+    .sessao{
+        display: flex;
+    
+    }
+
+    /*PAGINA DE CONTROLES*/
+
+    .controles img {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        margin-left: 10%;
+        margin-top: 5%;
+        width: 300px;
+        height: 300px;
+        padding-bottom: 50px; 
+    
+        }
+    
+        .controles{
+    
+            width: 100%;
+            padding-top: 5%;
+            display: flexbox;
+            padding-bottom: 10%;
+        }
+        
+        .controles span{
+            display: block;
+            font-size: 22px;
+            margin-left: 1%;
+        }
+        
+        .controles img{
+            margin-left: 1%;
+            margin-bottom: 30%;
+            padding-top: 10%;
+        }
+        
+        
+        .sessaoc{
+            display: flex;
+        
+        }
+
+         /*PAGINA DE CONSOLES*/
+
+         .consoles img {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            margin-left: 10%;
+            margin-top: 5%;
+            width: 300px;
+            height: 300px;
+            padding-bottom: 50px; 
+        
+            }
+        
+            .consoles{
+        
+                width: 100%;
+                padding-top: 5%;
+                display: flexbox;
+                padding-bottom: 10%;
+            }
+            
+            .consoles span{
+                display: block;
+                font-size: 22px;
+                margin-left: 1%;
+            }
+            
+            .consoles img{
+                margin-left: 1%;
+                margin-bottom: 30%;
+                padding-top: 10%;
+            }
+            
+            
+            .sessaoc1{
+                display: flex;
+            
+            }
+
+            /*PAGINA DE ACESSORIOS*/
+
+            .acessorios img {
+                display: inline-block;
+                margin: 0;
+                padding: 0;
+                margin-left: 10%;
+                margin-top: 5%;
+                width: 300px;
+                height: 300px;
+                padding-bottom: 50px; 
+            
+                }
+            
+                .acessorios{
+            
+                    width: 100%;
+                    padding-top: 5%;
+                    display: flexbox;
+                    padding-bottom: 10%;
+                }
+                
+                .acessorios span{
+                    display: block;
+                    font-size: 22px;
+                    margin-left: 1%;
+                }
+                
+                .acessorios img{
+                    margin-left: 1%;
+                    margin-bottom: 30%;
+                    padding-top: 10%;
+                }
+                
+                
+                .sessaoa{
+                    display: flex;
+                
+                }
